@@ -1,0 +1,25 @@
+System status report
+---------------------
+Current date and time:
+Tue Jul 29 21:01:09 WAT 2025
+
+System uptime:
+ 21:01:09 up 1 day, 15:51,  1 user,  load average: 0.00, 0.00, 0.00
+
+Disk usage of root directory:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  2.5G  954G   1% /
+
+Top 5 processes by memory usage:
+error: unknown sort specifier
+
+Usage:
+ ps [options]
+
+ Try 'ps --help <simple|list|output|threads|misc|all>'
+  or 'ps --help <s|l|o|t|m|a>'
+ for additional help text.
+
+For more details see ps(1).
+
+Report completed.

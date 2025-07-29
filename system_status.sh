@@ -21,3 +21,17 @@ ps aux --sort=-%men | head -n 6
 echo ""
 echo "Report completed."
 
+
+
+#!/bin/bash
+
+START=$(date +%s)
+
+echo "Running long task..."
+sleep 5  # Simulate something time-consuming
+
+END=$(date +%s)
+DURATION=$((END - START))
+
+echo "Task completed in $DURATION seconds."
+
